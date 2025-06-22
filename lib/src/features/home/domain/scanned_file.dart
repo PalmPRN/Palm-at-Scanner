@@ -11,7 +11,6 @@ abstract class ScannedFile with _$ScannedFile {
     required int page,
     required DateTime createdDate,
     required String path,
-    required Uri uri,
   }) = _ScannedFile;
 
   factory ScannedFile.fromJson(Map<String, dynamic> json) =>

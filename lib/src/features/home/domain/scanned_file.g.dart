@@ -12,7 +12,6 @@ _ScannedFile _$ScannedFileFromJson(Map<String, dynamic> json) => _ScannedFile(
   page: (json['page'] as num).toInt(),
   createdDate: DateTime.parse(json['createdDate'] as String),
   path: json['path'] as String,
-  uri: Uri.parse(json['uri'] as String),
 );
 
 Map<String, dynamic> _$ScannedFileToJson(_ScannedFile instance) =>
@@ -22,5 +21,4 @@ Map<String, dynamic> _$ScannedFileToJson(_ScannedFile instance) =>
       'page': instance.page,
       'createdDate': instance.createdDate.toIso8601String(),
       'path': instance.path,
-      'uri': instance.uri.toString(),
     };

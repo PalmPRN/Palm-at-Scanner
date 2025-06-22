@@ -1,28 +1,30 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'scanner_repository.dart';
+part of 'text_recognition_repository.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$scannerRepositoryHash() => r'd1d5643309039fcf15a5f18b053e60698eaa1922';
+String _$textRecognitionRepositoryHash() =>
+    r'22629df2d4eab8dc21d0636d8199946346771079';
 
-/// See also [scannerRepository].
-@ProviderFor(scannerRepository)
-final scannerRepositoryProvider =
-    AutoDisposeProvider<ScannerRepository>.internal(
-      scannerRepository,
-      name: r'scannerRepositoryProvider',
+/// See also [textRecognitionRepository].
+@ProviderFor(textRecognitionRepository)
+final textRecognitionRepositoryProvider =
+    AutoDisposeProvider<TextRecognitionRepository>.internal(
+      textRecognitionRepository,
+      name: r'textRecognitionRepositoryProvider',
       debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
           ? null
-          : _$scannerRepositoryHash,
+          : _$textRecognitionRepositoryHash,
       dependencies: null,
       allTransitiveDependencies: null,
     );
 
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
-typedef ScannerRepositoryRef = AutoDisposeProviderRef<ScannerRepository>;
+typedef TextRecognitionRepositoryRef =
+    AutoDisposeProviderRef<TextRecognitionRepository>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
